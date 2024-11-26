@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:wght@900&family=Play:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html{
+    scroll-behavior: smooth !important;
+}
+
+*{
+    font-family: "Play", sans-serif;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-track{
+    width: 10px;
+    background-color: #bdc3c7
+}
+body::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: #28243a;
+    border-radius: 10px;
+}
+/* header area */
+.navbar-brand img{
+    height: 50px;
+}
+.header-outer{
+    position: sticky;
+    top: 0;
+}
+.back-to-top-outer{
+    width: 50px;
+    height: 50px;
+    background-color: #170859;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #170859;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-to-top-outer img{
+    width: 20px;
+    height: 20px;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+}
+.fa-solid{
+    font-size: 18px;
+    color: white;
+}
+
+/* header area close*/
+
+.outer{
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Home area open*/
+.home-outer{
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430867.jpg?t=st=1732090533~exp=1732094133~hmac=7531d386b57ae8f71405850c02438cf51d8e18f02506efd0a727a552af3c355c&w=1380");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.title-text{
+    color: white;
+
+}
+.header-text{
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+    line-height: 60px;
+}
+.home-widgets-outer{
+    
+    margin-top: -120px;
+
+}
+.widgets-outer{
+    height: 300px;
+    
+}
+.widget-inner{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 4px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.widget-inner-top{
+    height: 100px;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.widget-inner-bottom{
+    
+    flex: 1;
+    padding: 10px;
+}
+.widget-icon{
+    width: 80px;
+    height: 80px;
+    background-color: #FE214F;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.widget-icon svg{
+    width: 50%;
+    height: 50%;
+}
+.widget-header{
+    text-align: center;
+}
+.widget-desc{
+    text-align: center;
+    color: #34495e;
+}
+/* Home area close */
+
+/* service area open */
+.service-outer{
+    min-height: 750px;
+   background-color: #F1EEF0;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1593319634705-4f92f42a7fb6?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+.service-container{   
+    min-height: 750px;
+    
+
+}
+.row{
+    height: 100%;
+}
+.service-container-inner{
+    height: 100%;
+    
+}
+
+.service-right-side{
+    min-height: 750px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+.right-top{
+    height: 350px;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-top:last-child{
+    margin-bottom: 0;
+}
+.right-bottom{
+    height: 350px;
+    background-color:white;
+}
+.service-top-title{
+    color: #FE214F;
+}
+.service-top-desc{
+    margin-top: 20px;
+}
+.service-grid-outer{
+    width: 100%;
+    height: 350px;
+    
+}
+.service-grid-inner{
+    
+    background-color: #404145;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.grid-1{
+    
+    background-image: url("https://img.freepik.com/free-photo/man-works-computer-night-top-view_169016-17378.jpg?t=st=1732254428~exp=1732258028~hmac=7f38b082ed34635b23d43a0c535fcb69ba151246953e7a7e47e2bd66c2ff2950&w=996");
+    background-size: cover;
+    background-position: center;
+}
+.grid-3{
+    
+    background-image: url("https://img.freepik.com/free-photo/businesswoman-working-office-with-smile-while-sitting_1150-14793.jpg?t=st=1732255982~exp=1732259582~hmac=97a916b7f63dcc3a356e516e87faf3edbc84c5bef1451e536fcbda9c4dc9b0fd&w=996");
+    background-size: cover;
+    background-position: center;
+}
+.link , .service-grid-title{color: #FE214F;}
+.service-grid-header{
+    color: white;
+}
+.desc-service-grid{
+    color: #bdc3c7;
+}
+/* service area close */
+
+
+/* About area open */
+.about-outer{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    
+}
+.about-outer img{
+    width: 100%;
+    height: 100%;
+    filter: blur(1px);
+}
+.dark-shadow-outer{
+    background-color: rgba(19, 15, 64,0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-content{
+    width: 600px;
+    height: 80%;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-title{
+    color: #FE214F;
+    text-align: center;
+    font-weight: bold;
+
+}
+.about-header{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+/* About area close */
+
+
+ /* Contact-Us area open  */
+.contact-us-outer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    
+    
+
+}
+.contact-inner{
+    display: flex;
+    height: 100%;
+   
+}
+.contact-left{
+    flex: 1;
+    height: 100%;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-left: 50px;
+    
+}
+.contact-right{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.email{
+    color: #FE214F;
+}
+@media only screen and (max-width:992px){
+    .contact-inner{
+        display: block;
+    }
+    .contact-left,.contact-right{
+        height: 500px;
+    }
+    .contact-us-outer{
+        width: 1000px;
+        
+    }
+}
+ /* Contact-Us area close  */
+
+ /* Product area open */
+
+.product-outer{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+.product-title{
+    color: #FE214F;
+    text-align: center;
+}
+.product-header{
+    text-align: center;
+
+}
+
+.product-inner{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-wrapper{
+    margin-bottom: 15px;
+}
+.features-title{
+    color: #FE214F;
+}
+.features-outer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.features-outer ol{
+     padding: 0;
+     margin: 12px;
+}
+.features-outer ol li{
+    font-style: italic;
+}
+.feature-right img{
+    margin-top: 20px;
+    height: 500px;
+
+}
+
+  /* Product area close */
+
+  /* Solutions area open */
+.solution-outer{
+    width: 100%;
+    min-height: 700px;
+    height: auto;
+    background-image: url('https://img.freepik.com/free-photo/wood-desk-with-laptop-plant_23-2148267494.jpg?t=st=1732300909~exp=1732304509~hmac=7b82729543b7e200a2ff968fd63d829e526d62b6c8d3a9728c84a27ece24f188&w=740');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+  }
+  .solution-title{
+    color: #FE214F;
+  }
+  .solution-data-contex{
+    margin-bottom: 50px;
+  }
+  .s-title{
+    font-weight: bold;
+  }
+
+  /* Solutions area close */
+
+  /* Footer are open */
+
+.footer{
+    background-color: #333;
+    height: 300px;
+    width: 100%;
+    padding-top: 100px;
+  }
+.footer-title{
+    text-align: center;
+    color: white;
+}
+.footer-desc{
+    text-align: center;
+    color: white;
+}
+.footer-element{
+    height: 200px;
+}
+.copywrite-text-outer{
+    height: 100px;
+    color: #F1EEF0;
+    text-align: center;
+}
+.copywrite-text-outer a{
+    text-decoration: none;
+    color: #FE214F;
+}
+.copywrite-text-outer a:hover{
+    text-decoration: underline;
+}
+
+    /* Footer are close */
